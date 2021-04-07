@@ -34,6 +34,8 @@ ul{
 }
 
 li{
-    display: block;
-    background-color:blueviolet;
+    display: flex;
+    justify-content: space-between;
+    background-color:orchid;
+    
 }
