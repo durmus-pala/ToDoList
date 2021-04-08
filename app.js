@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable linebreak-style */
 function addToDoList() {
   const myToDo = document.getElementById('todo').value;
@@ -17,6 +18,7 @@ function addToDoList() {
   li.append(myToDo);
   li.append(button1);
   myUl.append(li);
+  toDo.value = '';
 }
 
 const addButton = document.getElementById('addItem');
